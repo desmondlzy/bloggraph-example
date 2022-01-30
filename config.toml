@@ -1,0 +1,14 @@
+baseURL = 'http://desmondlzy.me/bloggraph/'
+languageCode = 'en-us'
+title = 'Bloggraph Example Website'
+theme = 'bloggraph'
+
+[menu]
+[[menu.main]]
+    name = "Home"
+    url = '/'
+    weight = 1
+[[menu.main]]
+    name = "Publications"
+    url = '/publications'
+    weight = 2
