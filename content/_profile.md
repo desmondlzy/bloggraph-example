@@ -7,6 +7,6 @@ email:
 ## Introduction 
 
 Welcome to the example website of the Hugo theme Bloggraph. 
-The design of Bloggraph is very similar to ACM SIGGRAPH technical paper and this is the intention.
+The design of Bloggraph takes lots of inspiration from the style of ACM SIGGRAPH technical paper.
 
-In this example website, we'll showcase the usage of the theme.
+This website is a minimal example, as well as a tutorial that could get you a quick start.
