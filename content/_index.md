@@ -4,16 +4,42 @@ title: Bloggraph Example Website
 
 The introduction section resides in `content/_profile.md`
 
-## Get Started with Home Page
-
-The best way to get started is get a copy of the source code of this example website and change it as per you need. Clone the [github repo](https://github.com/desmondlzy/bloggraph-example) of this site might be the simplest thing to do.
+The best way to get started is get a copy of the source code of this example website and change it as per you need. Simply clone the [github repo](https://github.com/desmondlzy/bloggraph-example).
 ```
 git clone --recursive https://github.com/desmondlzy/bloggraph-example
 ```
 
+Then try `hugo serve` you shall see the example website running at `localhost:1313/`. Make sure you've [installed Hugo](https://gohugo.io/getting-started/installing/).
+
+## Recommended Directory Layout
+
+If you're working with the example website, you're already set. If you are migrating an existing Hugo project, it's highly recommended to organize files as the following:
+
+```
+content/
+├─ publications/
+│  ├─ pequalsnp.md
+│  ├─ other-projects.md
+├─ _profile.md (bio and social media links; see notes below)
+├─ _index.md (home page)
+static/
+├─ sass/
+│  ├─ _custom.sass (recommended place to override the default sass)
+themes/
+├─ bloggraph/
+├─ otherthemes/
+config.toml
+```
+
+## Home Page
+
+Home page (the page shown at the root of your website) is generated from the `content/_index.md`. As usual, use [markdown syntax](https://www.markdownguide.org/) to write things on your home page.
+
 ### Change Photo/Social Media Links
 
-Change the corresponding field in the [front matter](https://gohugo.io/content-management/front-matter) of `content/_profile.md`. Only links to Github, LinkedIn and email are supported. Want more? Change `themes/layout/index.html` and file a pull request to let everyone benefit from it!
+Change the corresponding field in the [front matter](https://gohugo.io/content-management/front-matter) of `content/_profile.md`. 
+Currently, only links to Github, LinkedIn and email are supported. 
+Want more? Change `themes/layout/index.html` and file a [pull request](https://github.com/desmondlzy/bloggraph/pulls) to let everyone benefit from it!
 
 ### Change the Tabs in the Navigation Bar
 
@@ -34,13 +60,11 @@ hugo new publications/p-equals-np.md
 
 The authors and affiliations information will be parsed from the front matters and displayed on the page automatically.
 
-### Show Overview of a Publication from Markdown
+### Show the Overview of a Publication from Markdown
 
 A [shortcode](https://gohugo.io/content-management/shortcodes) is bundled so that you can refer a publication page in the website by 
 
-<code>
-{{&lt; publication/single title="Realtime Rendering on a Single Thread" >}}
-</code>
+<pre><code>{{&lt; publication/single title="Realtime Rendering on a Single Thread" >}}</code></pre> 
 
 {{< publication/single title="Realtime Rendering on a Single Thread" >}}
 
@@ -56,13 +80,8 @@ It's always good to have some deserts...
 
 Use shortcode:
 
-<code>
-{{&lt; numbering >}}
-</code>
-</br> </br>
+<pre><code>{{&lt; numbering >}}</code></pre>
 
 Pass different arguments to control items to be numbered:
 
-<code>
-{{&lt; numbering figure=false h2=true h3=false >}}
-</code>
+<pre><code>{{&lt; numbering figure=false h2=true h3=false >}}</code></pre>
