@@ -4,7 +4,8 @@ title: Bloggraph Example Website
 
 ## Start with the Example Source Code
 
-The best way to get started is get a copy of the source code of this example website and change it as per you need. Simply clone the [github repo](https://github.com/desmondlzy/bloggraph-example).
+The best way to get started is get a copy of the source code of this example website and change it as per your need. 
+Simply clone the [github repo](https://github.com/desmondlzy/bloggraph-example).
 ```
 git clone --recursive https://github.com/desmondlzy/bloggraph-example yourwebsite
 ```
@@ -42,7 +43,7 @@ Change `name` in `[params.author]`. It will be used to highlight your name in th
 
 ### Social Media Links
 
-Change the fields in `[params.author]`.  Currently, only links to Github, LinkedIn and email are supported. 
+Change the fields in `[params.author]`. Currently, only `linkedin`, `github` and `email` are supported.
 Want more? Tweak `themes/bloggraph/layout/index.html` and file a [pull request](https://github.com/desmondlzy/bloggraph/pulls) to let everyone benefit from it!
 
 ### Tabs in the Navigation Bar
