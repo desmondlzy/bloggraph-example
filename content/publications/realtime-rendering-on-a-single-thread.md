@@ -14,6 +14,9 @@ authors:
   - name: Foo, Bar
     affiliations: [1, 2]
     url: https://desmondlzy.me
+  - name: am I, Who
+    affiliations: [1, 2]
+    url: https://desmondlzy.me
 
 affiliations:
   - name: University of Foo
