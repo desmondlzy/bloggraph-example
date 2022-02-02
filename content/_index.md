@@ -64,16 +64,6 @@ Home page (the page shown at the root of your website) is generated from the `co
 
 Some tools that may come in handy when you write the publication page.
 
-1. Publication page layout
-2. Publication list layout
-3. Publication overview shortcode
-4. Publication overview shortcode
-5. Publication overview shortcode
-6. Publication overview shortcode
-7. Publication overview shortcode
-8. Publication overview shortcode
-9. Publication overview shortcode
-10. Publication overview shortcode
 
 ### Add a Publication/Project Page
 

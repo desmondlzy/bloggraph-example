@@ -6,9 +6,9 @@ date: 2021-02-30T20:55:17+01:00
 thumbnail: 
 paper: "url-to-your-paper.pdf"
 venue: 
-  name: SIGGRAPH 2021
+  name: International Journal of Graphics 2021
   url: to-publisher-website
-  note: conditionally accepted
+  note: conditionally rejected
 authors:
   - name: Foo, Bar
     affiliations: [1, 2]
