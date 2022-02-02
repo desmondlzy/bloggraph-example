@@ -1,7 +1,6 @@
 ---
 title: "Realtime Rendering on a Single Thread"
-layout: publication
-type: publication
+type: publications
 summary: "Real-time rendering on a single CPU thread is no longer a daydream!"
 date: 2021-02-30T20:55:17+01:00
 thumbnail: 

@@ -1,7 +1,6 @@
 ---
 title: "Towards Lossless Conversion From Soup to Voxels"
-layout: publication
-type: publication
+type: publications
 date: 2022-01-20T20:55:17+01:00
 summary: "Yet another significant step from soup to voxels!"
 thumbnail: 

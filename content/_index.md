@@ -2,6 +2,12 @@
 title: Bloggraph Example Website
 ---
 
+Welcome to the example website of the [Hugo](https://gohugo.io) theme Bloggraph. 
+The design of Bloggraph takes lots of inspiration from the style of ACM SIGGRAPH technical paper,
+with a special focus on showcasing research projects and profiles.
+
+This website is a minimal example, as well as a tutorial that could get you a quick start.
+
 ## Start with the Example Source Code
 
 The best way to get started is get a copy of the source code of this example website and change it as per your need. 
@@ -22,7 +28,6 @@ content/
 │  ├─ _index.md (if you want to customize the publication list page)
 │  ├─ pequalsnp.md
 │  ├─ other-projects.md
-├─ _profile.md (bio and social media links; see notes below)
 ├─ _index.md (home page)
 static/
 ├─ sass/
@@ -39,7 +44,7 @@ Change the corresponding fields in your [site configuration](https://gohugo.io/g
 
 ### Site Owner Name
 
-Change `name` in `[params.author]`. It will be used to highlight your name in the author list.
+Change `name` in `[params.author]`. It will be used to highlight your name in the author list of the publication.
 
 ### Social Media Links
 
@@ -57,12 +62,24 @@ Home page (the page shown at the root of your website) is generated from the `co
 
 ## Publication
 
-Bloggraph has a special focus on "project page".
-See below for all the tools that may come in handy.
+Some tools that may come in handy when you write the publication page.
+
+1. Publication page layout
+2. Publication list layout
+3. Publication overview shortcode
+4. Publication overview shortcode
+5. Publication overview shortcode
+6. Publication overview shortcode
+7. Publication overview shortcode
+8. Publication overview shortcode
+9. Publication overview shortcode
+10. Publication overview shortcode
 
 ### Add a Publication/Project Page
 
-Simple! Run the following command which creates all the boilerplate and front matters.
+Set the front matter `type` to be `publications`.
+The following command which creates all the boilerplate and front matters will take care of everything.
+
 ```
 hugo new publications/p-equals-np.md
 ```
@@ -85,7 +102,7 @@ A list of publication is automatically generated at `baseURL/publications`. You 
 
 I like snacks...
 
-### Number the Sections/Figures
+### Number the Headings/Figures
 
 Use __shortcode__ in the markdown file you want to number:
 
@@ -95,4 +112,4 @@ Pass in booleans to different arguments to control items to be numbered:
 
 <pre><code>{{&lt; numbering figure=false h2=true h3=false >}}</code></pre>
 
-Use classes `.count-figure` and `.count-h2h3` if you work with HTML.
+Use __HTML class__ `count-figure` and `count-h2h3` if you work with HTML.
