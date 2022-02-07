@@ -22,7 +22,7 @@ Simply clone the [github repo](https://github.com/desmondlzy/bloggraph-example) 
 git clone --recursive https://github.com/desmondlzy/bloggraph-example yourwebsite
 ```
 
-Then try `cd yourwebsite; hugo serve` you shall see the example website running at `localhost:1313/`. Make sure you've [installed Hugo](https://gohugo.io/getting-started/installing/) before this.
+Then try `cd yourwebsite; hugo serve` you shall see the example website running at `localhost:1313/`. Make sure you've [installed Hugo extended version](https://gohugo.io/getting-started/installing/) (v0.90.0+) before this.
 
 ### Recommended Directory Layout
 

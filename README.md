@@ -6,8 +6,14 @@ The website is live [here](https://desmondlzy.github.io/bloggraph).
 
 ## Usage
 
-Clone with `--recursive` flag.
+Make sure Hugo **extended version** (v0.90+) is [installed](https://gohugo.io/getting-started/installing/). Clone with `--recursive` flag.
 
 ```
 git clone --recursive https://github.com/desmondlzy/bloggraph-example yourwebsite
+```
+
+Then it's ready to go
+
+```
+hugo serve
 ```
