@@ -4,7 +4,7 @@ title: Bloggraph Example Website
 
 {{< numbering >}}
 
-{{< figure src="teaser.jpg" caption="Welcome to the example website of Bloggraph." >}}
+{{< figure src="https://desmondlzy.me/bloggraph/teaser.jpg" caption="Welcome to the example website of Bloggraph." >}}
 
 Welcome to the example website of the [Hugo](https://gohugo.io) theme Bloggraph. 
 The design of Bloggraph takes lots of inspiration from the style of ACM SIGGRAPH technical paper,
