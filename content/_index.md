@@ -2,6 +2,10 @@
 title: Bloggraph Example Website
 ---
 
+{{< numbering >}}
+
+{{< figure src="teaser.jpg" caption="Welcome to the example website of Bloggraph." >}}
+
 Welcome to the example website of the [Hugo](https://gohugo.io) theme Bloggraph. 
 The design of Bloggraph takes lots of inspiration from the style of ACM SIGGRAPH technical paper,
 with a special focus on showcasing research projects and profiles.
@@ -10,10 +14,10 @@ This website is a minimal example, as well as a tutorial that could get you a qu
 
 {{< icon-link >}}
 
-## Start with the Example Source Code
+## Start with the Source Code of This Website
 
 The best way to get started is get a copy of the source code of this example website and change it as per your need. 
-Simply clone the [github repo](https://github.com/desmondlzy/bloggraph-example).
+Simply clone the [github repo](https://github.com/desmondlzy/bloggraph-example) with `--recursive`.
 ```
 git clone --recursive https://github.com/desmondlzy/bloggraph-example yourwebsite
 ```
@@ -36,7 +40,6 @@ static/
 │  ├─ _custom.sass (recommended place to override the default sass)
 themes/
 ├─ bloggraph/
-├─ otherthemes/
 config.toml
 ```
 
