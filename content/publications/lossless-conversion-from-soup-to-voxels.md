@@ -3,7 +3,7 @@ title: "Towards Lossless Conversion From Soup to Voxels"
 type: publications
 date: 2022-01-20T20:55:17+01:00
 summary: "Yet another significant step from soup to voxels!"
-thumbnail: 
+thumbnail: /publications/cubes.jpg
 paper: "url-to-your-paper.pdf"
 venue: 
   name: BIGGRAPH 2022

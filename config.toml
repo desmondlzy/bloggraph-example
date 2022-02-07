@@ -10,7 +10,7 @@ theme = 'bloggraph'
     name = "Bar Foo"
     github = "desmondlzy/bloggraph"
     linkedin = ""
-    email = ""
+    email = "example@email.address"
 
 [menu]
 [[menu.main]]

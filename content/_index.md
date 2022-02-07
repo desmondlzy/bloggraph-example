@@ -8,6 +8,8 @@ with a special focus on showcasing research projects and profiles.
 
 This website is a minimal example, as well as a tutorial that could get you a quick start.
 
+{{< icon-link >}}
+
 ## Start with the Example Source Code
 
 The best way to get started is get a copy of the source code of this example website and change it as per your need. 
@@ -48,7 +50,11 @@ Change `name` in `[params.author]`. It will be used to highlight your name in th
 
 ### Social Media Links
 
-Change the fields in `[params.author]`. Currently, only `linkedin`, `github` and `email` are supported.
+Change the fields in `[params.author]`. This determines what <code>{{&lt; icon-link >}}</code> shows.
+
+{{< icon-link >}}
+
+Currently, only `linkedin`, `github` and `email` are supported.
 Want more? Tweak `themes/bloggraph/layout/index.html` and file a [pull request](https://github.com/desmondlzy/bloggraph/pulls) to let everyone benefit from it!
 
 ### Tabs in the Navigation Bar
@@ -91,6 +97,14 @@ A list of publication is automatically generated at `baseURL/publications`. You 
 ## Extras
 
 I like snacks...
+
+### Icon Link
+
+Display the your social media links as per the site configuration.
+
+<pre><code>{{&lt; icon-link >}}</code></pre>
+
+{{< icon-link >}}
 
 ### Number the Headings/Figures
 
