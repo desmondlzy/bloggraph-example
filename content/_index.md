@@ -58,7 +58,7 @@ Change the fields in `[params.author]`. This determines what <code>{{&lt; icon-l
 {{< icon-link >}}
 
 Currently, only `linkedin`, `github` and `email` are supported.
-Want more? Tweak `themes/bloggraph/layout/index.html` and file a [pull request](https://github.com/desmondlzy/bloggraph/pulls) to let everyone benefit from it!
+Want more? Tweak `themes/bloggraph/shortcodes/icon-link.html` and file a [pull request](https://github.com/desmondlzy/bloggraph/pulls) to let everyone benefit from it!
 
 ### Tabs in the Navigation Bar
 
