@@ -2,8 +2,6 @@
 title: Bloggraph Example Website
 ---
 
-{{< numbering >}}
-
 {{< figure src="https://desmondlzy.me/bloggraph/teaser.jpg" caption="Welcome to the example website of Bloggraph." >}}
 
 Welcome to the example website of the [Hugo](https://gohugo.io) theme Bloggraph. 
@@ -111,12 +109,9 @@ Display the your social media links as per the site configuration.
 
 ### Number the Headings/Figures
 
-Use __shortcode__ in the markdown file you want to number:
+Use __shortcode__ in the markdown file to number all the h2/h3 headings in the page.
+_Note_: `numbering` doesn't work for figure caption.
 
 <pre><code>{{&lt; numbering >}}</code></pre>
 
-Pass in booleans to different arguments to control items to be numbered:
-
-<pre><code>{{&lt; numbering figure=false h2=true h3=false >}}</code></pre>
-
-Use __HTML class__ `count-figure` and `count-h2h3` if you work with HTML.
+Use __HTML class__ `count-figure` and `count-h2h3` if you work with HTML. All the descendants of the container of the corresponding class will have the numbering enabled.
