@@ -78,14 +78,14 @@ Set the front matter `type` to be `publications`.
 The following command which creates all the boilerplate and front matters will take care of everything.
 
 ```
-hugo new publications/p-equals-np.md
+hugo new publications/p-equals-np/index.md
 ```
 
-The authors and affiliations information will be parsed from the front matters and displayed on the page automatically.
+The authors and affiliations information will be parsed from the frontmatters and displayed on the page automatically.
 
 ### Show the Overview of a Publication from Markdown
 
-A [shortcode](https://gohugo.io/content-management/shortcodes) is bundled so that you can refer a publication page in the website by 
+A [shortcode](https://gohugo.io/content-management/shortcodes) is bundled so that you can refer a publication page in the website from any page by this shortcode 
 
 ```
 {{</* publication/single title="Realtime Rendering on a Single Thread" */>}}

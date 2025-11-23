@@ -33,8 +33,5 @@ notes:
   - sole last author
 ---
 {{< numbering h2=false h3=false >}}
-{{< publication/information >}}
 
-## Your content here.
-
-In this work, we present a...
+Go to this [post](../realtime-rendering-on-a-single-thread/index.html) for more information about the publication page! 
