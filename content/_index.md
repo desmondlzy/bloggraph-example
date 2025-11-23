@@ -51,7 +51,7 @@ Change `name` in `[params.author]`. It will be used to highlight your name in th
 
 ### Social Media Links
 
-Change the fields in `[params.author]`. This determines what <code>{{&lt; icon-link >}}</code> shows.
+Change the fields in `[params.author]`. This determines what `{{</* icon-link */>}}` shows.
 
 {{< icon-link >}}
 
@@ -87,7 +87,9 @@ The authors and affiliations information will be parsed from the front matters a
 
 A [shortcode](https://gohugo.io/content-management/shortcodes) is bundled so that you can refer a publication page in the website by 
 
-<pre><code>{{&lt; publication/single title="Realtime Rendering on a Single Thread" >}}</code></pre> 
+```
+{{</* publication/single title="Realtime Rendering on a Single Thread" */>}}
+```
 
 {{< publication/single title="Realtime Rendering on a Single Thread" >}}
 
@@ -103,15 +105,20 @@ I like snacks...
 
 Display the your social media links as per the site configuration.
 
-<pre><code>{{&lt; icon-link >}}</code></pre>
+```
+{{</* icon-link */>}}
+```
 
 {{< icon-link >}}
 
 ### Number the Headings/Figures
 
 Use __shortcode__ in the markdown file to number all the h2/h3 headings in the page.
-_Note_: `numbering` doesn't work for figure caption.
 
-<pre><code>{{&lt; numbering >}}</code></pre>
+```
+{{</* numbering */>}}
+```
+
+{{< figure src="eyerolls.jpg" caption="Include a second figure in the post and the figure counter goes up automatically!" >}}
 
 Use __HTML class__ `count-figure` and `count-h2h3` if you work with HTML. All the descendants of the container of the corresponding class will have the numbering enabled.
